@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T18:43:33.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="piWTBLhD99t15m2IUeHg" version="21.7.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-25T22:10:15.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ps8U1BUgtxXUSJlPymph" version="21.7.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -340,7 +340,7 @@
         <mxCell id="yLPVT3wC8j-f2E3it_7R-1" value="Room" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="530" y="477.65" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="yLPVT3wC8j-f2E3it_7R-2" value="+roomNo {UNION PK}&#xa;+hotelNo  {UNION PK}&#xa;+roomType &#xa;+price" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="yLPVT3wC8j-f2E3it_7R-1">
+        <mxCell id="yLPVT3wC8j-f2E3it_7R-2" value="+roomNo {UNION PK}&#xa;+hotelNo  {UNION PK} {FK}&#xa;+roomType &#xa;+price" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="yLPVT3wC8j-f2E3it_7R-1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yLPVT3wC8j-f2E3it_7R-3" value="Guest" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
@@ -388,7 +388,7 @@
         <mxCell id="yLPVT3wC8j-f2E3it_7R-15" value="Booking" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="530" y="701.46" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="yLPVT3wC8j-f2E3it_7R-16" value="&#xa;+hotelNo {UNION PK}&#xa;+guestNo  {UNION PK}&#xa;+dateFrom {UNION PK}&#xa;+dateTo&#xa;+roomNo&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="yLPVT3wC8j-f2E3it_7R-15">
+        <mxCell id="yLPVT3wC8j-f2E3it_7R-16" value="&#xa;+hotelNo {UNION PK} {FK}&#xa;+guestNo  {UNION PK} {FK}&#xa;+dateFrom {UNION PK}&#xa;+dateTo&#xa;+roomNo&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="yLPVT3wC8j-f2E3it_7R-15">
           <mxGeometry y="30" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yLPVT3wC8j-f2E3it_7R-19" value="◀Makes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
