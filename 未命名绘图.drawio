@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T15:41:29.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Fat9AgmHsxHyJn2SV9nw" version="21.7.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-26T15:43:51.516Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YlB5CogBhjCwi65CKR1m" version="21.7.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -399,6 +399,9 @@
         </mxCell>
         <mxCell id="yLPVT3wC8j-f2E3it_7R-29" value="▼Has" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yLPVT3wC8j-f2E3it_7R-30" value="Note: COM PK means composite primary key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="590" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
